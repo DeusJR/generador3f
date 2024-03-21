@@ -17,8 +17,10 @@ module tt_um_example (
 );
 
   // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
-  assign uio_out = 0;
-  assign uio_oe  = 0;
 
+    g3f c1 (.SE(uio_in[7]), .Qa(uio_out[5]), .Qb(uio_out[4]), .Qc(uio_out[3]), .P0(uio_out[2]), .P2(uio_out[1]), .P3(uio_out[0]));
+
+    assign uio_oe = 8'b 00111111;
+    assign uio_out[7:6] = 2'b00;
+    assign uo_out[7:0] = 8'b00000000;
 endmodule
