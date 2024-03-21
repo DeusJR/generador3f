@@ -1,5 +1,5 @@
 module g3f(
-	A,
+	SE,
 	Qa,
 	Qb,
 	Qc,
@@ -8,7 +8,7 @@ module g3f(
 	P2
 );
 
-input	A;
+input	SE;
 output	Qa;
 output	Qb;
 output	Qc;
@@ -27,7 +27,7 @@ assign	Qc = 1;
 assign	P0 = 2;
 assign	P1 = 1;
 
-always@(posedge A)
+always@(posedge SE)
 begin
 	begin
 	2 = 0;
@@ -37,7 +37,7 @@ end
 assign	0 =  ~1;
 
 
-always@(posedge A)
+always@(posedge SE)
 begin
 	begin
 	3 = 2;
@@ -45,7 +45,7 @@ begin
 end
 
 
-always@(posedge A)
+always@(posedge SE)
 begin
 	begin
 	1 = 3;
