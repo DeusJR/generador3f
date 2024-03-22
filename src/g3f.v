@@ -4,43 +4,43 @@ module g3f(
 	output P0, P1, P2
 );
 
-wire 0;
-reg 1;
-reg 2;
-reg 3;
+wire w0;
+reg w1;
+reg w2;
+reg w3;
 
-assign	Qa = 2;
-assign	Qb = 3;
-assign	Qc = 1;
-assign	P0 = 2;
-assign	P1 = 1;
-
-always@(posedge SE)
-begin
-	begin
-	2 = 0;
-	end
-end
-
-assign	0 =  ~1;
-
+assign	Qa = w2;
+assign	Qb = w3;
+assign	Qc = w1;
+assign	P0 = w2;
+assign	P1 = w1;
 
 always@(posedge SE)
 begin
 	begin
-	3 = 2;
+	w2 = w0;
 	end
 end
+
+assign	w0 =  ~w1;
 
 
 always@(posedge SE)
 begin
 	begin
-	1 = 3;
+	w3 = w2;
 	end
 end
 
-assign	P2 =  ~3;
+
+always@(posedge SE)
+begin
+	begin
+	w1 = w3;
+	end
+end
+
+assign	P2 =  ~w3;
 
 
 endmodule
