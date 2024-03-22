@@ -1,20 +1,12 @@
 module g3f(
-	SE,
-	Qa,
-	Qb,
-	Qc,
-	P0,
-	P1,
-	P2
+	input SE,
+	output Qa,
+	output Qb,
+	output Qc,
+	output P0,
+	output P1,
+	output P2
 );
-
-input	SE;
-output	Qa;
-output	Qb;
-output	Qc;
-output	P0;
-output	P1;
-output	P2;
 
 wire	0;
 reg	1;
