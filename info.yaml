@@ -1,17 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Generador digital trifásico"      # Project title
-  author:       
-  "Jesús García Guzmán"
-  "Jorge Rafael Frantos Morales"
-  "Brian Isaías Landa León"
-  "Alan Eduardo Peralta Fuentes"
-  "Juan José Guzmán Lagunes"
-  "Adolfo de Jesús García Méndez"
-  "Paola Gabriela Rodríguez Sánchez"
-  "José de Jesús Sánchez Hernández"
-    
-      
+  author:       "Jesús García Guzmán, Jorge Rafael Frantos Morales, Brian Isaías Landa León, Alan Eduardo Peralta Fuentes, Juan José Guzmán Lagunes, Adolfo de Jesús García Méndez, Paola Gabriela Rodríguez Sánchez, José de Jesús Sánchez Hernández"
   discord:      "postdeus"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "El proyecto consiste en un microgenerador digital trifásico que tiene una señal de reloj de entrada y produce tres señales de salida con desfases de 120° entre sí, con el objetivo de demostrar su viabilidad y funcionalidad en aplicaciones de ingeniería eléctrica y electrónica."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
