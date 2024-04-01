@@ -2,13 +2,13 @@
 project:
   title:        "Generador digital trifásico"      # Project title
   author:       
-"•	Brian Isaías Landa León"
-"•	Juan José Guzmán Lagunes"
-"•	Alan Eduardo Peralta Fuentes"
-"•	Adolfo de Jesús García Méndez"
-"•	Paola Gabriela Rodríguez Sánchez"
-"•	José de Jesús Sánchez Hernández"
-"•	Jorge Rafael Frantos Morales"
+"Brian Isaías Landa León"
+"Juan José Guzmán Lagunes"
+"Alan Eduardo Peralta Fuentes"
+"Adolfo de Jesús García Méndez"
+"Paola Gabriela Rodríguez Sánchez"
+"José de Jesús Sánchez Hernández"
+"Jorge Rafael Frantos Morales"
       
   discord:      "postdeus"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "El proyecto consiste en un microgenerador digital trifásico que tiene una señal de reloj de entrada y produce tres señales de salida con desfases de 120° entre sí, con el objetivo de demostrar su viabilidad y funcionalidad en aplicaciones de ingeniería eléctrica y electrónica."      # One line description of what your project does
