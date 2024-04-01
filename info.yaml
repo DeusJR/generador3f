@@ -2,14 +2,14 @@
 project:
   title:        "Generador digital trifásico"      # Project title
   author:       
-    "Jesús García Guzmán"
-    "Jorge Rafael Frantos Morales"
-    "Brian Isaías Landa León"
-    "Alan Eduardo Peralta Fuentes"
-    "Juan José Guzmán Lagunes"
-    "Adolfo de Jesús García Méndez"
-    "Paola Gabriela Rodríguez Sánchez"
-    "José de Jesús Sánchez Hernández"
+  "Jesús García Guzmán"
+  "Jorge Rafael Frantos Morales"
+  "Brian Isaías Landa León"
+  "Alan Eduardo Peralta Fuentes"
+  "Juan José Guzmán Lagunes"
+  "Adolfo de Jesús García Méndez"
+  "Paola Gabriela Rodríguez Sánchez"
+  "José de Jesús Sánchez Hernández"
     
       
   discord:      "postdeus"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
