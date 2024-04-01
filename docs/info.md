@@ -31,8 +31,8 @@ El microgenerador digital trifásico representa un avance significativo en el á
 
 ## How to test
 
-g3f
+eso se supone que es lo que esta haciendo George y Alan
 
 ## External hardware
-
-g3f
+ - Osciloscopio
+ - Generador de funciones
