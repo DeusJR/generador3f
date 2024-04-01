@@ -35,4 +35,4 @@ eso se supone que es lo que esta haciendo George y Alan
 
 ## External hardware
  - Osciloscopio
- - Generador de funciones
+ - Generador de señales digitales
