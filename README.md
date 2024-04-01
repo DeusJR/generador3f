@@ -45,3 +45,6 @@ How it works
 El circuito requiere una entrada de reloj, en este caso llamada "SE", ya que no se usará el reloj del sistema, para manejar un registro de tres bits en configuración de anillo (contador Johnson), con tres salidas digitales desfasadas 120° entre ellas. Además de las dos terminales para polarización del circuito.
 En cuanto al proceso de las señales de salida del generador, la idea es filtrar analógicamente las ondas digitales para obtener tres señales senoidales de amplitudes iguales y desfasadas 120°. Esto como complemento del proyecto, pues la idea de aplicación del circuito se basa en alimentar motores trifásicos que se pudieran implementar en el área biomédica o similares.
 
+![Imagen de WhatsApp 2024-03-31 a las 20 20 17_92d28c8a](https://github.com/DeusJR/generador3f/assets/163932147/93440c60-be47-4216-83eb-10290c88cc63)
+
+
