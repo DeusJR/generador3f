@@ -51,7 +51,10 @@ En cuanto al proceso de las señales de salida del generador, la idea es filtrar
 
 En el enlace siguiente se tiene el circuito en diagrama de bloques, en donde se muestra cómo se tiene el desfase de las tres señales de salida.
 https://wokwi.com/projects/392934671873904641
+
 Para comprobar la funcionalidad de el código en verilog de nuestro ciircuito, se simuló usando la herramienta de simulación del software Quartus II. En la imagen siguiente se puede apreciar que en las salidas existe un desfasamiento de 120° entre sí, teniendo una sola señal de entrada de reloj. Estas señales desfasadas 120° son las que están designadas como P0, P1 y P2. La señal de reloj de entrada se designó como "SE".
+De igual forma el código se probó en una FPGA Altera Cyclone II, para comprobar su funcionamiento y arrojó los resultados esperados en las simulaciones. Siguiendo el procedimiento que se describe en este mismo archivo README, en la sección llamada "How to test".
+
 ![Imagen de WhatsApp 2024-03-31 a las 20 20 17_92d28c8a](https://github.com/DeusJR/generador3f/assets/163932147/93440c60-be47-4216-83eb-10290c88cc63)
 
 
