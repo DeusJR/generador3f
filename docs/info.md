@@ -31,7 +31,10 @@ El microgenerador digital trifásico representa un avance significativo en el á
 
 ## How to test
 
-eso se supone que es lo que esta haciendo George y Alan
+El circuito necesita una señal de reloj de entrada, puesto que no se usó el reloj de la placa, por lo que se requiere conectar un generador de señales en la entrada del circuito, la cual está nombrada como “SE”.  La señal que se inyectará al circuito debe ser de pulsos, con un voltaje que suba a 5 Vcd y baje a 0 Vcd, con un ciclo de trabajo del 50%. La frecuencia que se tenía pensada implementar es de 60 Hz, pues la idea original era alimentar un pequeño motor que pudiera servir para usos biomédicos o similares, pero para fines de prueba se puede usar cualquier otra frecuencia.
+Las salidas que estarán desfasadas 120° entre sí serán las llamadas P0, P1 y P2, a las cuales se deberán conectar las entradas de los tres canales del osciloscopio. Todo esto habiendo calibrado antes el osciloscopio y verificando que la señal que se le inyectará al circuito es la correcta.
+También es importante conectar las tierras de los cables del generador de señales digitales y del osciloscopio. 
+
 
 ## External hardware
  - Osciloscopio
