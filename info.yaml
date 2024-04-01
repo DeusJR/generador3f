@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "g3f"      # Project title
+  title:        "Generador digital trifásico"      # Project title
   author:       
 •	Brian Isaías Landa León
 •	Juan José Guzmán Lagunes
@@ -10,8 +10,8 @@ project:
 •	José de Jesús Sánchez Hernández
 •	Jorge Rafael Frantos Morales
       
-  discord:      "FIME"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Generador de ondas trifásico"      # One line description of what your project does
+  discord:      "postdeus"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "El proyecto consiste en diseñar y fabricar un microgenerador digital trifásico que produce señales senoidales de alta precisión con desfases de 120°, con el objetivo de demostrar su viabilidad y funcionalidad en aplicaciones de ingeniería eléctrica y electrónica."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
