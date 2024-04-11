@@ -53,6 +53,9 @@ En el enlace siguiente se tiene el circuito en diagrama de bloques, en donde se 
 Para poder usarlo se usó un switch, en el que manualmente encenciéndolo y apagándolo, se simula la función de pulsos de entrada y se observa el desfasamiento entre los 3 leds que se tienen en la salida.
 https://wokwi.com/projects/392934671873904641
 
+![image](https://github.com/DeusJR/generador3f/assets/165088102/3dc9e98b-3402-4d18-b189-794334193555)
+
+
 Para comprobar la funcionalidad de el código en verilog de nuestro ciircuito, se simuló usando la herramienta de simulación del software Quartus II. En la imagen siguiente se puede apreciar que en las salidas "P0, P1 y P2" existe un desfasamiento de 120° entre sí, teniendo una sola señal de entrada de reloj. La señal de reloj de entrada se designó como "SE".
 De igual forma el código se probó en una FPGA Altera Cyclone II, para comprobar su funcionamiento y arrojó los resultados esperados en las simulaciones. Siguiendo el procedimiento que se describe en este mismo archivo README, en la sección llamada "How to test".
 
